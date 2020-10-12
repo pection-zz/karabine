@@ -1277,7 +1277,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Finder"
+              "shell_command": "open -a 'finder'"
             }
           ],
           "type": "basic"
@@ -1296,7 +1296,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari"
+              "shell_command": "open -a 'Safari'"
             }
           ],
           "type": "basic"
@@ -1316,7 +1316,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Atom'"
+              "shell_command": "open -a 'Safari\ Technology\ Preview'"
             }
           ],
           "type": "basic"
@@ -1355,7 +1355,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Messenger"
+              "shell_command": "open -a 'Sublime\ Text"
             }
           ],
           "type": "basic"
@@ -1374,7 +1374,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Line"
+              "shell_command": "open -a 'Atom'"
             }
           ],
           "type": "basic"
@@ -1393,7 +1393,27 @@
           },
           "to": [
             {
-              "shell_command": "open -a Sublime\ Text"
+              "shell_command": "open -a 'TextMate'"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "open -a 'Google\ Chrome'"
             }
           ],
           "type": "basic"
@@ -1412,7 +1432,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Safari\ Technology\ Preview"
+              "shell_command": "open -a 'LINE'"
             }
           ],
           "type": "basic"
@@ -1432,7 +1452,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Google\ Chrome"
+              "shell_command": "open -a 'Messenger'"
             }
           ],
           "type": "basic"
